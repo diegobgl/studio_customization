@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<odoo>
+  <record model="ir.ui.menu" id="studio_customization.ingresos_agrosuper_2d7c43f5-ec75-40df-a05d-1639248a903b" context="{'studio': True}">
+    <field name="action" eval="False"/>
+    <field name="active" eval="True"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="name">CONTROL ACCESO AGROSUPER</field>
+    <field name="parent_id" eval="False"/>
+    <field name="sequence" eval="False"/>
+    <field name="web_icon">fa fa-diamond,#f1c40f,#34495e</field>
+  </record>
+  <record model="ir.ui.menu" id="studio_customization.control_acceso_agros_3187c7cc-a221-44db-806d-a3310f4d2969" context="{'studio': True}">
+    <field ref="base.action_open_website" name="action"/>
+    <field name="active" eval="True"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="name">SOLICITUD DE INGRESO</field>
+    <field ref="studio_customization.ingresos_agrosuper_2d7c43f5-ec75-40df-a05d-1639248a903b" name="parent_id"/>
+    <field name="sequence">2</field>
+    <field name="web_icon" eval="False"/>
+  </record>
+  <record model="ir.ui.menu" id="studio_customization.control_acceso_agros_36f0e626-ddef-4c0d-8aaa-1c46bf494f59" context="{'studio': True}">
+    <field ref="base.action_open_website" name="action"/>
+    <field name="active" eval="True"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="name">CONTROL DOCUMENTAL &amp; PREVENCION DE RIESGOS</field>
+    <field ref="studio_customization.ingresos_agrosuper_2d7c43f5-ec75-40df-a05d-1639248a903b" name="parent_id"/>
+    <field name="sequence">4</field>
+    <field name="web_icon" eval="False"/>
+  </record>
+  <record model="ir.ui.menu" id="studio_customization.control_acceso_agros_faa02a32-a173-4076-9598-d39f7001ec7f" context="{'studio': True}">
+    <field ref="base.action_open_website" name="action"/>
+    <field name="active" eval="True"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="name">DETALLE DE TRABAJOS A REALIZAR</field>
+    <field ref="studio_customization.ingresos_agrosuper_2d7c43f5-ec75-40df-a05d-1639248a903b" name="parent_id"/>
+    <field name="sequence">3</field>
+    <field name="web_icon" eval="False"/>
+  </record>
+  <record model="ir.ui.menu" id="studio_customization.control_ingreso_trab_02d67240-b1fd-4cf6-adbe-dc1130c1640f" context="{'studio': True}">
+    <field name="action" eval="False"/>
+    <field name="active" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="name">CONTROL INGRESO TRABAJADORES</field>
+    <field name="parent_id" eval="False"/>
+    <field name="sequence">10</field>
+    <field name="web_icon">fa fa-retweet,#FFAB4A,#F5F5F5</field>
+  </record>
+  <record model="ir.ui.menu" id="studio_customization.control_ingreso_trab_663974eb-a458-435d-97d9-6e68a5f0dd1e" context="{'studio': True}">
+    <field name="action" eval="False"/>
+    <field name="active" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="name">CONTROL INGRESO TRABAJADORES</field>
+    <field name="parent_id" eval="False"/>
+    <field name="sequence">10</field>
+    <field name="web_icon">fa fa-retweet,#FFAB4A,#F5F5F5</field>
+  </record>
+  <record model="ir.ui.menu" id="studio_customization.control_ingreso_trab_806da851-6f5f-4027-aa22-4c539e09749f" context="{'studio': True}">
+    <field ref="studio_customization.automated_action_9db76cde-9b31-487c-b11a-cb9d2db0c4bc" name="action"/>
+    <field name="active" eval="True"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="name">Automated Action</field>
+    <field ref="studio_customization.control_ingreso_trab_02d67240-b1fd-4cf6-adbe-dc1130c1640f" name="parent_id"/>
+    <field name="sequence">10</field>
+    <field name="web_icon" eval="False"/>
+  </record>
+  <record model="ir.ui.menu" id="studio_customization.control_ingreso_trab_c2ccc4b9-35ac-49c0-84ff-dc68f83a7893" context="{'studio': True}">
+    <field ref="studio_customization.control_ingreso_trab_d7276479-ce19-496a-9a2f-d8f358914142" name="action"/>
+    <field name="active" eval="True"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="name">CONTROL INGRESO TRABAJADORES</field>
+    <field ref="studio_customization.control_ingreso_trab_663974eb-a458-435d-97d9-6e68a5f0dd1e" name="parent_id"/>
+    <field name="sequence">10</field>
+    <field name="web_icon" eval="False"/>
+  </record>
+  <record model="ir.ui.menu" id="studio_customization.ingresos_agrosuper_i_4988f272-5d41-4f96-92af-e2ea16f0501c" context="{'studio': True}">
+    <field ref="studio_customization.ingresos_agrosuper_f333a0cd-790f-4fc0-bade-cc2c82c74ca3" name="action"/>
+    <field name="active" eval="True"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="name">REGISTRO EMPRESA</field>
+    <field ref="studio_customization.ingresos_agrosuper_2d7c43f5-ec75-40df-a05d-1639248a903b" name="parent_id"/>
+    <field name="sequence">1</field>
+    <field name="web_icon" eval="False"/>
+  </record>
+  <record model="ir.ui.menu" id="studio_customization.test_de_control_9abf8e45-06e6-4edd-ba29-db324751730f" context="{'studio': True}">
+    <field name="action" eval="False"/>
+    <field name="active" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="name">test de control</field>
+    <field name="parent_id" eval="False"/>
+    <field name="sequence">10</field>
+    <field name="web_icon">fa fa-diamond,#f1c40f,#34495e</field>
+  </record>
+  <record model="ir.ui.menu" id="studio_customization.test_de_control_docu_4dfeedc2-15d3-4d4c-bf65-03faa60d84b0" context="{'studio': True}">
+    <field ref="base.action_open_website" name="action"/>
+    <field name="active" eval="True"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="name">documentos</field>
+    <field ref="studio_customization.test_de_control_9abf8e45-06e6-4edd-ba29-db324751730f" name="parent_id"/>
+    <field name="sequence">10</field>
+    <field name="web_icon" eval="False"/>
+  </record>
+  <record model="ir.ui.menu" id="studio_customization.test_de_control_ingr_46a690e8-1bda-4946-beaf-7144720961b4" context="{'studio': True}">
+    <field ref="base.action_open_website" name="action"/>
+    <field name="active" eval="True"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="name">ingreso trabajador</field>
+    <field ref="studio_customization.test_de_control_9abf8e45-06e6-4edd-ba29-db324751730f" name="parent_id"/>
+    <field name="sequence">10</field>
+    <field name="web_icon" eval="False"/>
+  </record>
+  <record model="ir.ui.menu" id="studio_customization.test_de_control_test_350e1ab3-8ef5-402f-bd60-17fbf3562efa" context="{'studio': True}">
+    <field ref="studio_customization.test_de_control_affd0caa-bb02-410e-8418-fdfe9796a40f" name="action"/>
+    <field name="active" eval="True"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="name">test de control</field>
+    <field ref="studio_customization.test_de_control_9abf8e45-06e6-4edd-ba29-db324751730f" name="parent_id"/>
+    <field name="sequence">10</field>
+    <field name="web_icon" eval="False"/>
+  </record>
+  <record model="ir.ui.menu" id="studio_customization.test_fb7872be-5143-4133-a28b-d503d070721c" context="{'studio': True}">
+    <field name="action" eval="False"/>
+    <field name="active" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="name">test</field>
+    <field name="parent_id" eval="False"/>
+    <field name="sequence">10</field>
+    <field name="web_icon">fa fa-diamond,#f1c40f,#34495e</field>
+  </record>
+  <record model="ir.ui.menu" id="studio_customization.test_modulo_f7b06d92-8c6e-4cb7-81e7-13b596a05a60" context="{'studio': True}">
+    <field ref="studio_customization.modulo_fc1ce947-65e2-4e5c-bc90-8445421ca175" name="action"/>
+    <field name="active" eval="True"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="name">Módulo</field>
+    <field ref="studio_customization.test_fb7872be-5143-4133-a28b-d503d070721c" name="parent_id"/>
+    <field name="sequence">10</field>
+    <field name="web_icon" eval="False"/>
+  </record>
+</odoo>

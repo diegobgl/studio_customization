@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<odoo>
+  <record model="ir.model" id="studio_customization.control_ingreso_trab_bbb8476e-de69-462d-bcde-6de3d356ce1f" context="{'studio': True}">
+    <field name="info"> Main super-class for regular database-persisted Odoo models.
+
+    Odoo models are created by inheriting from this class::
+
+        class user(Model):
+            ...
+
+    The system will later instantiate the class once per database (on
+    which the class' module is installed).
+    </field>
+    <field name="mail_thread" eval="True"/>
+    <field name="model">x_control_ingreso_trab</field>
+    <field name="name">CONTROL INGRESO TRABAJADORES</field>
+    <field name="state">manual</field>
+    <field name="transient" eval="False"/>
+  </record>
+  <record model="ir.model" id="studio_customization.ingresos_agrosuper_badce51c-4998-4457-92de-130be947d113" context="{'studio': True}">
+    <field name="info"> Main super-class for regular database-persisted Odoo models.
+
+    Odoo models are created by inheriting from this class::
+
+        class user(Model):
+            ...
+
+    The system will later instantiate the class once per database (on
+    which the class' module is installed).
+    </field>
+    <field name="mail_thread" eval="False"/>
+    <field name="model">x_ingresos_agrosuper</field>
+    <field name="name">INGRESOS AGROSUPER</field>
+    <field name="state">manual</field>
+    <field name="transient" eval="False"/>
+  </record>
+  <record model="ir.model" id="studio_customization.test_de_control_92e7ac35-d757-4102-b797-6ce04a2ec37f" context="{'studio': True}">
+    <field name="info"> Main super-class for regular database-persisted Odoo models.
+
+    Odoo models are created by inheriting from this class::
+
+        class user(Model):
+            ...
+
+    The system will later instantiate the class once per database (on
+    which the class' module is installed).
+    </field>
+    <field name="mail_thread" eval="True"/>
+    <field name="model">x_test_de_control</field>
+    <field name="name">test de control</field>
+    <field name="state">manual</field>
+    <field name="transient" eval="False"/>
+  </record>
+</odoo>

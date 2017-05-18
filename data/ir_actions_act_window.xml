@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<odoo>
+  <record model="ir.actions.act_window" id="studio_customization.automated_action_9db76cde-9b31-487c-b11a-cb9d2db0c4bc" context="{'studio': True}">
+    <field name="auto_search" eval="True"/>
+    <field name="context">{}</field>
+    <field name="domain" eval="False"/>
+    <field name="filter" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="help"><![CDATA[<p>
+                        This is your new action ; by default, it contains a list view and a form view.
+                    </p>
+                    <p>
+                        You can start customizing these screens by clicking on the Studio icon on the
+                        top right corner (you can also customize this help message there).
+                    </p>
+                ]]></field>
+    <field name="limit">80</field>
+    <field name="multi" eval="False"/>
+    <field name="name">Automated Action</field>
+    <field name="res_model">base.automation</field>
+    <field name="search_view_id" eval="False"/>
+    <field name="src_model" eval="False"/>
+    <field name="target">current</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="usage" eval="False"/>
+    <field name="view_id" eval="False"/>
+    <field name="view_ids" eval="[(6, 0, [])]"/>
+    <field name="view_mode">tree,form</field>
+    <field name="view_type">form</field>
+  </record>
+  <record model="ir.actions.act_window" id="studio_customization.control_ingreso_trab_d7276479-ce19-496a-9a2f-d8f358914142" context="{'studio': True}">
+    <field name="auto_search" eval="True"/>
+    <field name="context">{}</field>
+    <field name="domain" eval="False"/>
+    <field name="filter" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="help"><![CDATA[<p>
+                        This is your new action ; by default, it contains a list view and a form view.
+                    </p>
+                    <p>
+                        You can start customizing these screens by clicking on the Studio icon on the
+                        top right corner (you can also customize this help message there).
+                    </p>
+                ]]></field>
+    <field name="limit">80</field>
+    <field name="multi" eval="False"/>
+    <field name="name">CONTROL INGRESO TRABAJADORES</field>
+    <field name="res_model">x_control_ingreso_trab</field>
+    <field name="search_view_id" eval="False"/>
+    <field name="src_model" eval="False"/>
+    <field name="target">current</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="usage" eval="False"/>
+    <field name="view_id" eval="False"/>
+    <field name="view_ids" eval="[(6, 0, [])]"/>
+    <field name="view_mode">tree,form,kanban</field>
+    <field name="view_type">form</field>
+  </record>
+  <record model="ir.actions.act_window" id="studio_customization.ingresos_agrosuper_f333a0cd-790f-4fc0-bade-cc2c82c74ca3" context="{'studio': True}">
+    <field name="auto_search" eval="True"/>
+    <field name="context">{}</field>
+    <field name="domain" eval="False"/>
+    <field name="filter" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="help"><![CDATA[<p>
+                        This is your new action ; by default, it contains a list view and a form view.
+                    </p>
+                    <p>
+                        You can start customizing these screens by clicking on the Studio icon on the
+                        top right corner (you can also customize this help message there).
+                    </p>
+                ]]></field>
+    <field name="limit">80</field>
+    <field name="multi" eval="False"/>
+    <field name="name">INGRESOS AGROSUPER</field>
+    <field name="res_model">x_ingresos_agrosuper</field>
+    <field name="search_view_id" eval="False"/>
+    <field name="src_model" eval="False"/>
+    <field name="target">current</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="usage" eval="False"/>
+    <field name="view_id" eval="False"/>
+    <field name="view_ids" eval="[(6, 0, [ref('studio_customization.false_6274e0c4-4241-4064-80bd-5a4b791f44b1'), ref('studio_customization.false_774662b8-faa4-418a-b04e-54b6480eae99'), ref('studio_customization.false_62d50f33-3d68-41a5-8900-7e6656ac8339'), ref('studio_customization.false_210d68df-246b-46bb-a78c-6903e3bb5119')])]"/>
+    <field name="view_mode">tree,form,kanban,pivot</field>
+    <field name="view_type">form</field>
+  </record>
+  <record model="ir.actions.act_window" id="studio_customization.modulo_fc1ce947-65e2-4e5c-bc90-8445421ca175" context="{'studio': True}">
+    <field name="auto_search" eval="True"/>
+    <field name="context">{}</field>
+    <field name="domain" eval="False"/>
+    <field name="filter" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="help"><![CDATA[<p>
+                        This is your new action ; by default, it contains a list view and a form view.
+                    </p>
+                    <p>
+                        You can start customizing these screens by clicking on the Studio icon on the
+                        top right corner (you can also customize this help message there).
+                    </p>
+                ]]></field>
+    <field name="limit">80</field>
+    <field name="multi" eval="False"/>
+    <field name="name">Módulo</field>
+    <field name="res_model">ir.module.module</field>
+    <field name="search_view_id" eval="False"/>
+    <field name="src_model" eval="False"/>
+    <field name="target">current</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="usage" eval="False"/>
+    <field name="view_id" eval="False"/>
+    <field name="view_ids" eval="[(6, 0, [])]"/>
+    <field name="view_mode">tree,form</field>
+    <field name="view_type">form</field>
+  </record>
+  <record model="ir.actions.act_window" id="studio_customization.test_de_control_affd0caa-bb02-410e-8418-fdfe9796a40f" context="{'studio': True}">
+    <field name="auto_search" eval="True"/>
+    <field name="context">{}</field>
+    <field name="domain" eval="False"/>
+    <field name="filter" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="help"><![CDATA[<p>
+                        This is your new action ; by default, it contains a list view and a form view.
+                    </p>
+                    <p>
+                        You can start customizing these screens by clicking on the Studio icon on the
+                        top right corner (you can also customize this help message there).
+                    </p>
+                ]]></field>
+    <field name="limit">80</field>
+    <field name="multi" eval="False"/>
+    <field name="name">CONTROL INGRESOS </field>
+    <field name="res_model">x_test_de_control</field>
+    <field name="search_view_id" eval="False"/>
+    <field name="src_model" eval="False"/>
+    <field name="target">current</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="usage" eval="False"/>
+    <field name="view_id" eval="False"/>
+    <field name="view_ids" eval="[(6, 0, [])]"/>
+    <field name="view_mode">tree,form</field>
+    <field name="view_type">form</field>
+  </record>
+</odoo>

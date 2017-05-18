@@ -1,0 +1,873 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<odoo>
+  <record model="ir.ui.view" id="studio_customization.default_form_view_fo_d751c632-9d6d-4e7f-9736-bd9fbb0e4b56" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field type="xml" name="arch">
+      <form>
+        <sheet string="INGRESOS AGROSUPER">
+          <div class="oe_title">
+            <h1>
+              <field name="x_name" required="1"/>
+            </h1>
+          </div>
+          <group name="e2e564">
+            <group name="7401a8"/>
+            <group name="c4a185"/>
+          </group>
+        </sheet>
+      </form>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" eval="False"/>
+    <field name="mode">primary</field>
+    <field name="model">x_ingresos_agrosuper</field>
+    <field name="name">Default form view for x_ingresos_agrosuper</field>
+    <field name="priority">16</field>
+    <field name="type">form</field>
+  </record>
+  <record model="ir.ui.view" id="studio_customization.default_form_view_fo_dd3a3402-c461-4a45-95aa-7ac40e5e170a" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field type="xml" name="arch">
+      <form>
+        <sheet string="test de control">
+          <div class="oe_title">
+            <h1>
+              <field name="x_name" required="1"/>
+            </h1>
+          </div>
+          <group name="f05438">
+            <group name="1bbdae"/>
+            <group name="0a32d6"/>
+          </group>
+        </sheet>
+      </form>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" eval="False"/>
+    <field name="mode">primary</field>
+    <field name="model">x_test_de_control</field>
+    <field name="name">Default form view for x_test_de_control</field>
+    <field name="priority">16</field>
+    <field name="type">form</field>
+  </record>
+  <record model="ir.ui.view" id="studio_customization.default_form_view_fo_f561be52-d903-466e-81d9-ced002199b93" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field type="xml" name="arch">
+      <form>
+        <sheet string="CONTROL INGRESO TRABAJADORES">
+          <div class="oe_title">
+            <h1>
+              <field name="x_name" required="1"/>
+            </h1>
+          </div>
+          <group name="ab474b">
+            <group name="753e98"/>
+            <group name="5dbaeb"/>
+          </group>
+        </sheet>
+      </form>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" eval="False"/>
+    <field name="mode">primary</field>
+    <field name="model">x_control_ingreso_trab</field>
+    <field name="name">Default form view for x_control_ingreso_trab</field>
+    <field name="priority">16</field>
+    <field name="type">form</field>
+  </record>
+  <record model="ir.ui.view" id="studio_customization.default_kanban_view__303289e9-051d-4420-98d4-1834295a57ab" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field type="xml" name="arch">
+      <kanban string="INGRESOS AGROSUPER">
+        <templates>
+          <t t-name="kanban-box">
+            <div t-attf-class="oe_kanban_card oe_kanban_global_click">
+              <div class="o_kanban_card_content">
+                <field name="x_name" modifiers="{}"/>
+              </div>
+            </div>
+          </t>
+        </templates>
+      </kanban>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" eval="False"/>
+    <field name="mode">primary</field>
+    <field name="model">x_ingresos_agrosuper</field>
+    <field name="name">Default kanban view for x_ingresos_agrosuper</field>
+    <field name="priority">16</field>
+    <field name="type">kanban</field>
+  </record>
+  <record model="ir.ui.view" id="studio_customization.default_kanban_view__7fac6354-80b0-49ea-a4fb-286a43f28ed5" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field type="xml" name="arch">
+      <kanban string="CONTROL INGRESO TRABAJADORES">
+        <templates>
+          <t t-name="kanban-box">
+            <div t-attf-class="oe_kanban_card oe_kanban_global_click">
+              <div class="o_kanban_card_content">
+                <field name="x_name" modifiers="{}"/>
+              </div>
+            </div>
+          </t>
+        </templates>
+      </kanban>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" eval="False"/>
+    <field name="mode">primary</field>
+    <field name="model">x_control_ingreso_trab</field>
+    <field name="name">Default kanban view for x_control_ingreso_trab</field>
+    <field name="priority">16</field>
+    <field name="type">kanban</field>
+  </record>
+  <record model="ir.ui.view" id="studio_customization.default_kanban_view__92a4bfa9-d6cb-4c42-ac61-91fec6133f87" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field type="xml" name="arch">
+      <kanban string="INGRESOS AGROSUPER">
+        <templates>
+          <t t-name="kanban-box">
+            <div t-attf-class="oe_kanban_card oe_kanban_global_click">
+              <div class="o_kanban_card_content">
+                <field name="x_name" modifiers="{}"/>
+              </div>
+            </div>
+          </t>
+        </templates>
+      </kanban>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" eval="False"/>
+    <field name="mode">primary</field>
+    <field name="model">x_ingresos_agrosuper</field>
+    <field name="name">Default kanban view for x_ingresos_agrosuper</field>
+    <field name="priority">16</field>
+    <field name="type">kanban</field>
+  </record>
+  <record model="ir.ui.view" id="studio_customization.default_pivot_view_f_71d88143-1cbc-4756-b014-99c6a732eed1" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field type="xml" name="arch">
+      <pivot string="INGRESOS AGROSUPER"/>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" eval="False"/>
+    <field name="mode">primary</field>
+    <field name="model">x_ingresos_agrosuper</field>
+    <field name="name">Default pivot view for x_ingresos_agrosuper</field>
+    <field name="priority">16</field>
+    <field name="type">pivot</field>
+  </record>
+  <record model="ir.ui.view" id="studio_customization.default_tree_view_fo_1319faaf-40c7-4792-b875-9ae7516ac3c2" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field type="xml" name="arch">
+      <tree string="CONTROL INGRESO TRABAJADORES">
+        <field name="x_name" modifiers="{}"/>
+      </tree>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" eval="False"/>
+    <field name="mode">primary</field>
+    <field name="model">x_control_ingreso_trab</field>
+    <field name="name">Default tree view for x_control_ingreso_trab</field>
+    <field name="priority">16</field>
+    <field name="type">tree</field>
+  </record>
+  <record model="ir.ui.view" id="studio_customization.default_tree_view_fo_9757fb12-1ef5-4284-a97e-14e2be5fc51f" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field type="xml" name="arch">
+      <tree string="test de control">
+        <field name="x_name" modifiers="{}"/>
+      </tree>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" eval="False"/>
+    <field name="mode">primary</field>
+    <field name="model">x_test_de_control</field>
+    <field name="name">Default tree view for x_test_de_control</field>
+    <field name="priority">16</field>
+    <field name="type">tree</field>
+  </record>
+  <record model="ir.ui.view" id="studio_customization.default_tree_view_fo_da406b26-04d6-4a05-b79e-4ff4c0fa4b8c" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field type="xml" name="arch">
+      <tree string="INGRESOS AGROSUPER">
+        <field name="x_name" modifiers="{}"/>
+      </tree>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" eval="False"/>
+    <field name="mode">primary</field>
+    <field name="model">x_ingresos_agrosuper</field>
+    <field name="name">Default tree view for x_ingresos_agrosuper</field>
+    <field name="priority">16</field>
+    <field name="type">tree</field>
+  </record>
+  <record model="ir.ui.view" id="studio_customization.odoo_studio_default__185939ea-5af5-4ebe-b976-22c48794b780" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field type="xml" name="arch">
+      <data>
+        <xpath expr="/form[1]/sheet[1]/div[1]/h1[1]/field[1]" position="replace"/>
+        <xpath expr="//group[@name='7401a8'][not(ancestor::field)]" position="inside">
+          <notebook name="studio_notebook_hp3Mi">
+            <page name="studio_page_hp3Mi" string="New Page"/>
+          </notebook>
+          <group name="studio_group_1hSOU">
+            <group name="studio_group_1hSOU_left" string="Left Title"/>
+            <group name="studio_group_1hSOU_right" string="Right Title"/>
+          </group>
+        </xpath>
+        <xpath expr="//group[@name='studio_group_1hSOU_right'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//group[@name='7401a8'][not(ancestor::field)]" position="attributes">
+          <attribute name="groups"/>
+          <attribute name="string">ACTA DE INGRESO</attribute>
+        </xpath>
+        <xpath expr="//group[@name='c4a185'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//form[not(ancestor::field)]" position="attributes">
+          <attribute name="delete">false</attribute>
+          <attribute name="edit">false</attribute>
+          <attribute name="groups"/>
+          <attribute name="create">true</attribute>
+        </xpath>
+        <xpath expr="//group[@name='studio_group_1hSOU'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//page[@name='studio_page_hp3Mi'][not(ancestor::field)]" position="inside">
+          <group name="studio_group_BeD0J">
+            <group name="studio_group_BeD0J_left" string="Left Title"/>
+            <group name="studio_group_BeD0J_right" string="Right Title"/>
+          </group>
+        </xpath>
+        <xpath expr="//page[@name='studio_page_hp3Mi'][not(ancestor::field)]" position="after">
+          <page name="studio_page_DTv0m" string="New Page"/>
+        </xpath>
+        <xpath expr="//group[@name='studio_group_BeD0J_left'][not(ancestor::field)]" position="inside">
+          <field name="x_studio_field_d3gn4"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_field_d3gn4'][not(ancestor::field)]" position="attributes">
+          <attribute name="groups"/>
+          <attribute name="widget">toggle_button</attribute>
+        </xpath>
+        <xpath expr="//group[@name='studio_group_BeD0J_right'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//group[@name='e2e564'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//div[contains(@class,'oe_title')][not(ancestor::field)]" position="after">
+          <notebook name="studio_notebook_pnVO4">
+            <page name="studio_page_pnVO4" string="New Page"/>
+          </notebook>
+          <group name="studio_group_xh3nd">
+            <group name="studio_group_xh3nd_left" string="Left Title"/>
+            <group name="studio_group_xh3nd_right" string="Right Title"/>
+          </group>
+          <field name="create_date"/>
+          <field name="create_uid"/>
+          <field name="x_name"/>
+          <field name="x_studio_field_Fg3bS"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_field_Fg3bS'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//field[@name='x_name'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//field[@name='create_uid'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//group[@name='studio_group_xh3nd_left'][not(ancestor::field)]" position="inside">
+          <field name="x_studio_field_XzU3f"/>
+        </xpath>
+        <xpath expr="//group[@name='studio_group_xh3nd_left'][not(ancestor::field)]" position="attributes">
+          <attribute name="groups"/>
+          <attribute name="string">DATOS DE INGRESO EMPRESA EXTERNA</attribute>
+        </xpath>
+        <xpath expr="//group[@name='studio_group_xh3nd_right'][not(ancestor::field)]" position="attributes">
+          <attribute name="groups"/>
+          <attribute name="string">DOCUMENTACION &amp; PREVENCION DE RIESGOS</attribute>
+        </xpath>
+        <xpath expr="//group[@name='studio_group_xh3nd_right'][not(ancestor::field)]" position="inside">
+          <field name="x_name"/>
+          <field name="x_name"/>
+        </xpath>
+        <xpath expr="//field[@name='x_name'][not(ancestor::field)]" position="after">
+          <field name="x_studio_field_x4YU9"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_field_x4YU9'][not(ancestor::field)]" position="attributes">
+          <attribute name="required">True</attribute>
+          <attribute name="groups"/>
+          <attribute name="string">CONTRATO DE TRABAJO</attribute>
+        </xpath>
+        <xpath expr="//page[@name='studio_page_pnVO4'][not(ancestor::field)]" position="attributes">
+          <attribute name="groups"/>
+          <attribute name="string">EMPRESA</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_name'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//field[@name='x_name'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//page[@name='studio_page_pnVO4'][not(ancestor::field)]" position="after">
+          <page name="studio_page_uAF3Y" string="New Page"/>
+        </xpath>
+        <xpath expr="//page[@name='studio_page_uAF3Y'][not(ancestor::field)]" position="attributes">
+          <attribute name="groups"/>
+          <attribute name="string">DETALLE INGRESO</attribute>
+        </xpath>
+        <xpath expr="//group[@name='studio_group_xh3nd_right'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//group[@name='studio_group_xh3nd'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//field[@name='create_date'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//page[@name='studio_page_uAF3Y'][not(ancestor::field)]" position="after">
+          <page name="studio_page_Gu3Ii" string="New Page"/>
+        </xpath>
+        <xpath expr="//page[@name='studio_page_Gu3Ii'][not(ancestor::field)]" position="attributes">
+          <attribute name="groups"/>
+          <attribute name="string">CONTROL DOCUMENTAL</attribute>
+        </xpath>
+        <xpath expr="//page[@name='studio_page_Gu3Ii'][not(ancestor::field)]" position="after">
+          <page name="studio_page_lvo27" string="New Page"/>
+        </xpath>
+        <xpath expr="//sheet/*[1]" position="before">
+          <div class="oe_button_box" name="button_box"/>
+        </xpath>
+        <xpath expr="//page[@name='studio_page_lvo27'][not(ancestor::field)]" position="attributes">
+          <attribute name="groups"/>
+          <attribute name="string">DETALLE  SALIDA</attribute>
+        </xpath>
+        <xpath expr="//page[@name='studio_page_pnVO4'][not(ancestor::field)]" position="inside">
+          <field name="x_studio_field_egMac" widget="image"/>
+          <group name="studio_group_YJtSN">
+            <group name="studio_group_YJtSN_left" string="Left Title"/>
+            <group name="studio_group_YJtSN_right" string="Right Title"/>
+          </group>
+        </xpath>
+        <xpath expr="//group[@name='studio_group_YJtSN_left'][not(ancestor::field)]" position="inside">
+          <notebook name="studio_notebook_nA2cp">
+            <page name="studio_page_nA2cp" string="New Page"/>
+          </notebook>
+        </xpath>
+        <xpath expr="//group[@name='studio_group_YJtSN_right'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//page[@name='studio_page_nA2cp'][not(ancestor::field)]" position="after">
+          <page name="studio_page_XxsZU" string="New Page"/>
+        </xpath>
+        <xpath expr="//group[@name='studio_group_YJtSN'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//page[@name='studio_page_pnVO4'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//page[@name='studio_page_lvo27'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//page[@name='studio_page_uAF3Y'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="/form[1]/sheet[1]/notebook[1]" position="replace"/>
+        <xpath expr="/form[1]/sheet[1]/div[2]" position="after">
+          <field name="x_studio_field_dArey"/>
+          <notebook name="studio_notebook_77v2h">
+            <page name="studio_page_77v2h" string="New Page"/>
+          </notebook>
+        </xpath>
+        <xpath expr="//page[@name='studio_page_77v2h'][not(ancestor::field)]" position="attributes">
+          <attribute name="groups"/>
+          <attribute name="string">trabajadores</attribute>
+        </xpath>
+        <xpath expr="//page[@name='studio_page_77v2h'][not(ancestor::field)]" position="after">
+          <page name="studio_page_TfyIl" string="New Page"/>
+        </xpath>
+      </data>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field ref="studio_customization.default_form_view_fo_d751c632-9d6d-4e7f-9736-bd9fbb0e4b56" name="inherit_id"/>
+    <field name="mode">extension</field>
+    <field name="model">x_ingresos_agrosuper</field>
+    <field name="name">Odoo Studio: Default form view for x_ingresos_agrosuper customization</field>
+    <field name="priority">99</field>
+    <field name="type">form</field>
+  </record>
+  <record model="ir.ui.view" id="studio_customization.odoo_studio_default__52aca9be-f5cd-45a4-b8f0-e5f04d1bed78" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field type="xml" name="arch">
+      <data>
+        <xpath expr="//div[contains(@class,'oe_title')][not(ancestor::field)]" position="after">
+          <field name="display_name"/>
+          <notebook name="studio_notebook_H30Jc">
+            <page name="studio_page_H30Jc" string="New Page"/>
+          </notebook>
+        </xpath>
+        <xpath expr="//page[@name='studio_page_H30Jc'][not(ancestor::field)]" position="after">
+          <page name="studio_page_siFrt" string="New Page"/>
+        </xpath>
+        <xpath expr="//page[@name='studio_page_H30Jc'][not(ancestor::field)]" position="inside">
+          <group name="studio_group_wqNpb">
+            <group name="studio_group_wqNpb_left" string="Left Title"/>
+            <group name="studio_group_wqNpb_right" string="Right Title"/>
+          </group>
+        </xpath>
+        <xpath expr="//group[@name='studio_group_wqNpb_left'][not(ancestor::field)]" position="inside">
+          <field name="x_studio_field_3dIlf"/>
+        </xpath>
+        <xpath expr="//group[@name='1bbdae'][not(ancestor::field)]" position="inside">
+          <field name="x_studio_field_g4NDs"/>
+        </xpath>
+        <xpath expr="//form[not(ancestor::field)]" position="attributes">
+          <attribute name="delete">false</attribute>
+          <attribute name="edit">false</attribute>
+          <attribute name="groups"/>
+          <attribute name="create">false</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_name'][not(ancestor::field)]" position="attributes">
+          <attribute name="required">False</attribute>
+          <attribute name="readonly">True</attribute>
+          <attribute name="widget">char</attribute>
+          <attribute name="groups"/>
+          <attribute name="string">control ingreso</attribute>
+        </xpath>
+        <xpath expr="//page[@name='studio_page_siFrt'][not(ancestor::field)]" position="after">
+          <page name="studio_page_gFeqc" string="New Page"/>
+        </xpath>
+        <xpath expr="//page[@name='studio_page_siFrt'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//page[@name='studio_page_gFeqc'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//sheet" position="after">
+          <div class="oe_chatter">
+            <field name="message_follower_ids" widget="mail_followers"/>
+            <field name="message_ids" widget="mail_thread"/>
+          </div>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_field_3dIlf'][not(ancestor::field)]" position="before">
+          <notebook name="studio_notebook_yAbW0">
+            <page name="studio_page_yAbW0" string="New Page"/>
+          </notebook>
+        </xpath>
+        <xpath expr="//group[@name='studio_group_wqNpb_left'][not(ancestor::field)]" position="attributes">
+          <attribute name="groups"/>
+          <attribute name="string">trabajador</attribute>
+        </xpath>
+        <xpath expr="//group[@name='studio_group_wqNpb_left'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//sheet/*[1]" position="before">
+          <div class="oe_button_box" name="button_box"/>
+        </xpath>
+        <xpath expr="/form[1]/sheet[1]/notebook[1]/page[1]" position="replace"/>
+        <xpath expr="//group[@name='1bbdae'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//group[@name='f05438'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//div[contains(@class,'oe_chatter')][not(ancestor::field)]" position="replace"/>
+        <xpath expr="/form[1]/sheet[1]/div[2]/h1[1]/field[1]" position="replace"/>
+      </data>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field ref="studio_customization.default_form_view_fo_dd3a3402-c461-4a45-95aa-7ac40e5e170a" name="inherit_id"/>
+    <field name="mode">extension</field>
+    <field name="model">x_test_de_control</field>
+    <field name="name">Odoo Studio: Default form view for x_test_de_control customization</field>
+    <field name="priority">99</field>
+    <field name="type">form</field>
+  </record>
+  <record model="ir.ui.view" id="studio_customization.odoo_studio_default__6343f83c-2d41-430b-8f3a-75195c2d724e" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field type="xml" name="arch">
+      <data>
+        <xpath expr="//pivot[not(ancestor::field)]" position="attributes">
+          <attribute name="disable_linking">true</attribute>
+          <attribute name="groups"/>
+        </xpath>
+      </data>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field ref="studio_customization.default_pivot_view_f_71d88143-1cbc-4756-b014-99c6a732eed1" name="inherit_id"/>
+    <field name="mode">extension</field>
+    <field name="model">x_ingresos_agrosuper</field>
+    <field name="name">Odoo Studio: Default pivot view for x_ingresos_agrosuper customization</field>
+    <field name="priority">99</field>
+    <field name="type">pivot</field>
+  </record>
+  <record model="ir.ui.view" id="studio_customization.odoo_studio_default__708349fe-e1bd-4079-b9c0-db40b94bc7e6" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field type="xml" name="arch">
+      <data>
+        <xpath expr="//templates//field[@name='x_name'][not(ancestor::field)]" position="attributes">
+          <attribute name="bold"/>
+          <attribute name="groups"/>
+          <attribute name="string">SOLICITUDES</attribute>
+        </xpath>
+        <xpath expr="//kanban[not(ancestor::field)]" position="attributes">
+          <attribute name="groups"/>
+          <attribute name="create">false</attribute>
+        </xpath>
+      </data>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field ref="studio_customization.default_kanban_view__303289e9-051d-4420-98d4-1834295a57ab" name="inherit_id"/>
+    <field name="mode">extension</field>
+    <field name="model">x_ingresos_agrosuper</field>
+    <field name="name">Odoo Studio: Default kanban view for x_ingresos_agrosuper customization</field>
+    <field name="priority">99</field>
+    <field name="type">kanban</field>
+  </record>
+  <record model="ir.ui.view" id="studio_customization.odoo_studio_default__8a4b8caa-b182-4cb1-848e-4128396cef49" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field type="xml" name="arch">
+      <data>
+        <xpath expr="//field[@name='x_name'][not(ancestor::field)]" position="before">
+          <field name="x_studio_field_fb7dQ"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_field_fb7dQ'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//field[@name='x_name'][not(ancestor::field)]" position="replace"/>
+      </data>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field ref="studio_customization.default_tree_view_fo_9757fb12-1ef5-4284-a97e-14e2be5fc51f" name="inherit_id"/>
+    <field name="mode">extension</field>
+    <field name="model">x_test_de_control</field>
+    <field name="name">Odoo Studio: Default tree view for x_test_de_control customization</field>
+    <field name="priority">99</field>
+    <field name="type">tree</field>
+  </record>
+  <record model="ir.ui.view" id="studio_customization.odoo_studio_default__927fed17-6927-46d8-8501-a5880bb0dcbe" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field type="xml" name="arch">
+      <data>
+        <xpath expr="//form[not(ancestor::field)]" position="attributes">
+          <attribute name="delete">false</attribute>
+          <attribute name="edit">false</attribute>
+          <attribute name="groups"/>
+          <attribute name="create">false</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_name'][not(ancestor::field)]" position="attributes">
+          <attribute name="required">False</attribute>
+          <attribute name="groups"/>
+          <attribute name="string">ORDEN DE TRABAJO</attribute>
+        </xpath>
+        <xpath expr="//group[@name='753e98'][not(ancestor::field)]" position="inside">
+          <field name="x_studio_field_dbT8U"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_field_dbT8U'][not(ancestor::field)]" position="attributes">
+          <attribute name="groups"/>
+          <attribute name="string">Ingreso Sucursal</attribute>
+        </xpath>
+        <xpath expr="//div[contains(@class,'oe_title')][not(ancestor::field)]" position="after">
+          <field name="x_studio_field_dbT8U"/>
+          <notebook name="studio_notebook_6ICEm">
+            <page name="studio_page_6ICEm" string="New Page"/>
+          </notebook>
+          <field name="x_studio_field_Fiepo"/>
+          <group name="studio_group_i0JZM">
+            <group name="studio_group_i0JZM_left" string="Left Title"/>
+            <group name="studio_group_i0JZM_right" string="Right Title"/>
+          </group>
+          <field name="message_needaction"/>
+          <field name="display_name"/>
+          <field name="x_studio_field_FXZoW"/>
+        </xpath>
+        <xpath expr="/form[1]/sheet[1]/div[1]/h1[1]/field[1]" position="replace"/>
+        <xpath expr="//field[@name='x_studio_field_FXZoW'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//group[@name='753e98'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//sheet" position="after">
+          <div class="oe_chatter">
+            <field name="message_follower_ids" widget="mail_followers"/>
+            <field name="message_ids" widget="mail_thread"/>
+          </div>
+        </xpath>
+        <xpath expr="//group[@name='ab474b'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//field[@name='display_name'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//field[@name='message_needaction'][not(ancestor::field)]" position="attributes">
+          <attribute name="groups"/>
+          <attribute name="widget">toggle_button</attribute>
+        </xpath>
+        <xpath expr="//group[@name='studio_group_i0JZM_left'][not(ancestor::field)]" position="inside">
+          <notebook name="studio_notebook_xtHQM">
+            <page name="studio_page_xtHQM" string="New Page"/>
+          </notebook>
+        </xpath>
+        <xpath expr="//page[@name='studio_page_xtHQM'][not(ancestor::field)]" position="inside">
+          <field name="x_studio_field_BQprZ"/>
+        </xpath>
+        <xpath expr="//group[@name='studio_group_i0JZM_right'][not(ancestor::field)]" position="inside">
+          <field name="x_studio_field_LLfrh"/>
+        </xpath>
+        <xpath expr="/form[1]/sheet[1]/group[1]/group[1]/notebook[1]" position="after">
+          <field name="x_studio_field_t5SBF"/>
+          <field name="x_studio_field_ubYtj"/>
+          <field name="x_studio_field_0Ofmv"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_field_LLfrh'][not(ancestor::field)]" position="after">
+          <field name="x_studio_field_9Me16"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_field_0Ofmv'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//field[@name='x_studio_field_ubYtj'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//group[@name='studio_group_i0JZM_left'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//group[@name='studio_group_i0JZM'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//field[@name='x_studio_field_Fiepo'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//field[@name='message_needaction'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//page[@name='studio_page_6ICEm'][not(ancestor::field)]" position="inside">
+          <field name="display_name"/>
+        </xpath>
+        <xpath expr="//field[@name='display_name'][not(ancestor::field)]" position="attributes">
+          <attribute name="readonly">False</attribute>
+          <attribute name="groups"/>
+          <attribute name="string">trabajador</attribute>
+        </xpath>
+        <xpath expr="//page[@name='studio_page_6ICEm'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//field[@name='x_studio_field_dbT8U'][not(ancestor::field)]" position="replace"/>
+      </data>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field ref="studio_customization.default_form_view_fo_f561be52-d903-466e-81d9-ced002199b93" name="inherit_id"/>
+    <field name="mode">extension</field>
+    <field name="model">x_control_ingreso_trab</field>
+    <field name="name">Odoo Studio: Default form view for x_control_ingreso_trab customization</field>
+    <field name="priority">99</field>
+    <field name="type">form</field>
+  </record>
+  <record model="ir.ui.view" id="studio_customization.odoo_studio_default__b5d37ebc-04cf-498b-a6a9-97e35d9a5ddb" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field type="xml" name="arch">
+      <data>
+        <xpath expr="//field[@name='x_name'][not(ancestor::field)]" position="before">
+          <field name="x_studio_field_XzU3f"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_field_XzU3f'][not(ancestor::field)]" position="attributes">
+          <attribute name="groups"/>
+          <attribute name="string">PLANTA SUCURSAL</attribute>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_field_XzU3f'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//field[@name='x_name'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//tree[not(ancestor::field)]" position="inside">
+          <field name="display_name"/>
+        </xpath>
+        <xpath expr="//field[@name='display_name'][not(ancestor::field)]" position="attributes">
+          <attribute name="string">EMPRESA</attribute>
+          <attribute name="groups"/>
+          <attribute name="readonly">False</attribute>
+        </xpath>
+        <xpath expr="//tree[not(ancestor::field)]" position="attributes">
+          <attribute name="delete">false</attribute>
+          <attribute name="edit">false</attribute>
+          <attribute name="groups"/>
+          <attribute name="create">true</attribute>
+        </xpath>
+        <xpath expr="//field[@name='display_name'][not(ancestor::field)]" position="replace"/>
+      </data>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field ref="studio_customization.default_tree_view_fo_da406b26-04d6-4a05-b79e-4ff4c0fa4b8c" name="inherit_id"/>
+    <field name="mode">extension</field>
+    <field name="model">x_ingresos_agrosuper</field>
+    <field name="name">Odoo Studio: Default tree view for x_ingresos_agrosuper customization</field>
+    <field name="priority">99</field>
+    <field name="type">tree</field>
+  </record>
+  <record model="ir.ui.view" id="studio_customization.odoo_studio_hr_emplo_83c3db33-343f-4032-bd04-6081ff4c46f4" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field type="xml" name="arch">
+      <data>
+        <xpath expr="//page[@name='hr_settings'][not(ancestor::field)]" position="after">
+          <page name="studio_page_N3Qn5" string="New Page"/>
+          <page name="studio_page_kxjli" string="New Page"/>
+        </xpath>
+        <xpath expr="//page[@name='studio_page_N3Qn5'][not(ancestor::field)]" position="attributes">
+          <attribute name="groups"/>
+          <attribute name="string">RECURSOS HUMANOS</attribute>
+        </xpath>
+        <xpath expr="//field[@name='user_id'][not(ancestor::field)]" position="after">
+          <field name="display_name"/>
+        </xpath>
+        <xpath expr="//field[@name='display_name'][not(ancestor::field)]" position="attributes">
+          <attribute name="groups"/>
+          <attribute name="string">AFP</attribute>
+        </xpath>
+        <xpath expr="//form[not(ancestor::field)]" position="attributes">
+          <attribute name="delete">false</attribute>
+          <attribute name="edit">false</attribute>
+          <attribute name="groups"/>
+          <attribute name="create">false</attribute>
+        </xpath>
+        <xpath expr="//field[@name='display_name'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="/form[1]/sheet[1]/notebook[1]/page[3]/group[1]/group[1]" position="replace"/>
+        <xpath expr="/form[1]/sheet[1]/notebook[1]/page[3]/group[1]" position="inside">
+          <group name="studio_group_O3GbJ">
+            <group name="studio_group_O3GbJ_left" string="Left Title"/>
+            <group name="studio_group_O3GbJ_right" string="Right Title"/>
+          </group>
+          <notebook name="studio_notebook_1X4np">
+            <page name="studio_page_1X4np" string="New Page"/>
+          </notebook>
+        </xpath>
+        <xpath expr="/form[1]/sheet[1]/notebook[1]/page[3]/group[1]" position="replace"/>
+        <xpath expr="//page[@name='hr_settings'][not(ancestor::field)]" position="inside">
+          <field name="x_studio_field_xRiX8"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_field_xRiX8'][not(ancestor::field)]" position="attributes">
+          <attribute name="help">A</attribute>
+          <attribute name="groups"/>
+          <attribute name="string">FONASA - ISAPRE</attribute>
+        </xpath>
+        <xpath expr="//page[@name='hr_settings'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//page[@name='studio_page_N3Qn5'][not(ancestor::field)]" position="inside">
+          <notebook name="studio_notebook_QcwjX">
+            <page name="studio_page_QcwjX" string="New Page"/>
+          </notebook>
+        </xpath>
+        <xpath expr="//page[@name='studio_page_QcwjX'][not(ancestor::field)]" position="after">
+          <page name="studio_page_dCCkG" string="New Page"/>
+        </xpath>
+        <xpath expr="//page[@name='studio_page_QcwjX'][not(ancestor::field)]" position="inside">
+          <field name="x_studio_field_Ff1Uw"/>
+        </xpath>
+        <xpath expr="//page[@name='studio_page_QcwjX'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//page[@name='studio_page_dCCkG'][not(ancestor::field)]" position="inside">
+          <field name="x_studio_field_Ff1Uw"/>
+        </xpath>
+        <xpath expr="/form[1]/sheet[1]/notebook[1]/page[3]/notebook[1]" position="after">
+          <group name="studio_group_XFSyT">
+            <group name="studio_group_XFSyT_left" string="Left Title"/>
+            <group name="studio_group_XFSyT_right" string="Right Title"/>
+          </group>
+        </xpath>
+        <xpath expr="//group[@name='studio_group_XFSyT_left'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="/form[1]/sheet[1]/notebook[1]/page[3]/notebook[1]/page[1]" position="replace"/>
+        <xpath expr="//group[@name='studio_group_XFSyT'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//page[@name='studio_page_kxjli'][not(ancestor::field)]" position="after">
+          <page name="studio_page_HT8NV" string="New Page"/>
+          <page name="studio_page_eCdjV" string="New Page"/>
+          <page name="studio_page_229qq" string="New Page"/>
+        </xpath>
+        <xpath expr="//page[@name='studio_page_229qq'][not(ancestor::field)]" position="after">
+          <page name="studio_page_m9ymA" string="New Page"/>
+        </xpath>
+        <xpath expr="//page[@name='studio_page_N3Qn5'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//page[@name='studio_page_kxjli'][not(ancestor::field)]" position="attributes">
+          <attribute name="groups"/>
+          <attribute name="string">RECURSOS HUMANOS</attribute>
+        </xpath>
+        <xpath expr="//page[@name='studio_page_kxjli'][not(ancestor::field)]" position="inside">
+          <group name="studio_group_mrw77">
+            <group name="studio_group_mrw77_left" string="Left Title"/>
+            <group name="studio_group_mrw77_right" string="Right Title"/>
+          </group>
+        </xpath>
+        <xpath expr="//group[@name='studio_group_mrw77_left'][not(ancestor::field)]" position="inside">
+          <field name="x_studio_field_Ff1Uw"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_field_Ff1Uw'][not(ancestor::field)]" position="attributes">
+          <attribute name="readonly">False</attribute>
+          <attribute name="groups"/>
+          <attribute name="string">AFP</attribute>
+        </xpath>
+        <xpath expr="//group[@name='studio_group_mrw77_left'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//group[@name='studio_group_mrw77_right'][not(ancestor::field)]" position="inside">
+          <field name="name_related"/>
+        </xpath>
+        <xpath expr="//group[@name='studio_group_mrw77_right'][not(ancestor::field)]" position="attributes">
+          <attribute name="groups"/>
+          <attribute name="string">INFORMACION PREVISIONAL</attribute>
+        </xpath>
+        <xpath expr="//field[@name='name_related'][not(ancestor::field)]" position="attributes">
+          <attribute name="readonly">False</attribute>
+          <attribute name="groups"/>
+          <attribute name="string">AFP</attribute>
+        </xpath>
+        <xpath expr="//group[@name='studio_group_mrw77_right'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//group[@name='studio_group_mrw77'][not(ancestor::field)]" position="after">
+          <notebook name="studio_notebook_phPEr">
+            <page name="studio_page_phPEr" string="New Page"/>
+          </notebook>
+        </xpath>
+        <xpath expr="//page[@name='studio_page_m9ymA'][not(ancestor::field)]" position="after">
+          <page name="studio_page_0kONz" string="New Page"/>
+        </xpath>
+        <xpath expr="//page[@name='studio_page_phPEr'][not(ancestor::field)]" position="after">
+          <page name="studio_page_Pme8U" string="New Page"/>
+        </xpath>
+        <xpath expr="//page[@name='studio_page_Pme8U'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//page[@name='studio_page_229qq'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//page[@name='studio_page_0kONz'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//page[@name='studio_page_m9ymA'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//page[@name='studio_page_eCdjV'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="/form[1]/sheet[1]/notebook[1]/page[3]/notebook[1]/page[1]" position="replace"/>
+        <xpath expr="//group[@name='studio_group_mrw77'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//page[@name='studio_page_HT8NV'][not(ancestor::field)]" position="after">
+          <page name="studio_page_e2Z05" string="New Page"/>
+        </xpath>
+        <xpath expr="//page[@name='studio_page_e2Z05'][not(ancestor::field)]" position="after">
+          <page name="studio_page_C1DEp" string="New Page"/>
+        </xpath>
+        <xpath expr="//page[@name='studio_page_C1DEp'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//page[@name='studio_page_e2Z05'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//page[@name='studio_page_kxjli'][not(ancestor::field)]" position="replace"/>
+        <xpath expr="//page[@name='studio_page_HT8NV'][not(ancestor::field)]" position="attributes">
+          <attribute name="groups"/>
+          <attribute name="string">RR-HH</attribute>
+        </xpath>
+        <xpath expr="//page[@name='studio_page_HT8NV'][not(ancestor::field)]" position="inside">
+          <group name="studio_group_p9u9H">
+            <group name="studio_group_p9u9H_left" string="Left Title"/>
+            <group name="studio_group_p9u9H_right" string="Right Title"/>
+          </group>
+        </xpath>
+        <xpath expr="//group[@name='studio_group_p9u9H_left'][not(ancestor::field)]" position="attributes">
+          <attribute name="groups"/>
+          <attribute name="string">INFORMACION PREVISIONAL</attribute>
+        </xpath>
+        <xpath expr="//group[@name='studio_group_p9u9H_right'][not(ancestor::field)]" position="attributes">
+          <attribute name="groups"/>
+          <attribute name="string">CONTROL &amp; PREVENCION DE RIESGOS</attribute>
+        </xpath>
+        <xpath expr="//group[@name='studio_group_p9u9H_left'][not(ancestor::field)]" position="inside">
+          <field name="x_studio_field_Ff1Uw"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_field_Ff1Uw'][not(ancestor::field)]" position="after">
+          <field name="x_studio_field_xRiX8"/>
+        </xpath>
+        <xpath expr="//field[@name='x_studio_field_xRiX8'][not(ancestor::field)]" position="after">
+          <field name="city"/>
+        </xpath>
+        <xpath expr="//field[@name='city'][not(ancestor::field)]" position="attributes">
+          <attribute name="groups"/>
+          <attribute name="string">CAJA DE COMPENSACION</attribute>
+        </xpath>
+        <xpath expr="//field[@name='city'][not(ancestor::field)]" position="after">
+          <field name="display_name"/>
+        </xpath>
+        <xpath expr="//field[@name='display_name'][not(ancestor::field)]" position="replace"/>
+      </data>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field ref="hr.view_employee_form" name="inherit_id"/>
+    <field name="mode">extension</field>
+    <field name="model">hr.employee</field>
+    <field name="name">Odoo Studio: hr.employee.form customization</field>
+    <field name="priority">99</field>
+    <field name="type">form</field>
+  </record>
+  <record model="ir.ui.view" id="studio_customization.odoo_studio_ir_modul_116dce5c-c8a4-423f-8555-01c70045d109" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field type="xml" name="arch">
+      <data>
+        <xpath expr="//field[@name='shortdesc'][not(ancestor::field)]" position="replace"/>
+      </data>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field ref="base.module_tree" name="inherit_id"/>
+    <field name="mode">extension</field>
+    <field name="model">ir.module.module</field>
+    <field name="name">Odoo Studio: ir.module.module.tree customization</field>
+    <field name="priority">99</field>
+    <field name="type">tree</field>
+  </record>
+  <record model="ir.ui.view" id="studio_customization.odoo_studio_res_part_a7c42cd4-748e-4209-bc21-58e2ffede72a" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field type="xml" name="arch">
+      <data>
+        <xpath expr="//field[@name='vat'][not(ancestor::field)]" position="attributes">
+          <attribute name="groups"/>
+          <attribute name="string">RUT</attribute>
+        </xpath>
+      </data>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field ref="base.view_partner_form" name="inherit_id"/>
+    <field name="mode">extension</field>
+    <field name="model">res.partner</field>
+    <field name="name">Odoo Studio: res.partner.form customization</field>
+    <field name="priority">99</field>
+    <field name="type">form</field>
+  </record>
+</odoo>

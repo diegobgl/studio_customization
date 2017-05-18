@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<odoo>
+  <record model="ir.model.access" id="studio_customization.control_ingreso_trab_2d197b44-72b1-478d-9ec0-dd2a92f87826" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field ref="base.group_user" name="group_id"/>
+    <field ref="studio_customization.control_ingreso_trab_bbb8476e-de69-462d-bcde-6de3d356ce1f" name="model_id"/>
+    <field name="name">CONTROL INGRESO TRABAJADORES group_user</field>
+    <field name="perm_create" eval="False"/>
+    <field name="perm_read" eval="True"/>
+    <field name="perm_unlink" eval="False"/>
+    <field name="perm_write" eval="False"/>
+  </record>
+  <record model="ir.model.access" id="studio_customization.control_ingreso_trab_a269dba1-96d9-4ce2-b084-d7a90bc54997" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field ref="base.group_system" name="group_id"/>
+    <field ref="studio_customization.control_ingreso_trab_bbb8476e-de69-462d-bcde-6de3d356ce1f" name="model_id"/>
+    <field name="name">CONTROL INGRESO TRABAJADORES group_system</field>
+    <field name="perm_create" eval="True"/>
+    <field name="perm_read" eval="True"/>
+    <field name="perm_unlink" eval="True"/>
+    <field name="perm_write" eval="True"/>
+  </record>
+  <record model="ir.model.access" id="studio_customization.ingresos_agrosuper_g_05eb5c5e-0009-4239-afae-99fa8a2965b5" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field ref="base.group_system" name="group_id"/>
+    <field ref="studio_customization.ingresos_agrosuper_badce51c-4998-4457-92de-130be947d113" name="model_id"/>
+    <field name="name">INGRESOS AGROSUPER group_system</field>
+    <field name="perm_create" eval="True"/>
+    <field name="perm_read" eval="True"/>
+    <field name="perm_unlink" eval="True"/>
+    <field name="perm_write" eval="True"/>
+  </record>
+  <record model="ir.model.access" id="studio_customization.ingresos_agrosuper_g_34158a1c-d736-4f5f-a750-0ab2a835f146" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field ref="base.group_user" name="group_id"/>
+    <field ref="studio_customization.ingresos_agrosuper_badce51c-4998-4457-92de-130be947d113" name="model_id"/>
+    <field name="name">INGRESOS AGROSUPER group_user</field>
+    <field name="perm_create" eval="False"/>
+    <field name="perm_read" eval="True"/>
+    <field name="perm_unlink" eval="False"/>
+    <field name="perm_write" eval="False"/>
+  </record>
+  <record model="ir.model.access" id="studio_customization.test_de_control_grou_93373920-42fd-4e09-8e49-22a93148bd00" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field ref="base.group_user" name="group_id"/>
+    <field ref="studio_customization.test_de_control_92e7ac35-d757-4102-b797-6ce04a2ec37f" name="model_id"/>
+    <field name="name">test de control group_user</field>
+    <field name="perm_create" eval="False"/>
+    <field name="perm_read" eval="True"/>
+    <field name="perm_unlink" eval="False"/>
+    <field name="perm_write" eval="False"/>
+  </record>
+  <record model="ir.model.access" id="studio_customization.test_de_control_grou_9cbba9f5-e1fd-4e78-af1d-b0bec96acacd" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field ref="base.group_system" name="group_id"/>
+    <field ref="studio_customization.test_de_control_92e7ac35-d757-4102-b797-6ce04a2ec37f" name="model_id"/>
+    <field name="name">test de control group_system</field>
+    <field name="perm_create" eval="True"/>
+    <field name="perm_read" eval="True"/>
+    <field name="perm_unlink" eval="True"/>
+    <field name="perm_write" eval="True"/>
+  </record>
+</odoo>
